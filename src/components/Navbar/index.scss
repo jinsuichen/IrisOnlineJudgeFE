@@ -1,0 +1,11 @@
+.ant-menu-horizontal {
+
+  > .ant-menu-item:nth-child(1) {
+    margin-left: 20%;
+  }
+
+  > .ant-menu-item:nth-child(3) {
+    margin-left: auto;
+    margin-right: 20%;
+  }
+}
