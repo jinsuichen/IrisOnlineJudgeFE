@@ -21,10 +21,12 @@ class Navbar extends Component {
             },
         ];
 
+        const activeKey = menuItems.find(item => item.label.props.to === location.pathname)?.key;
 
         return (
             <div>
-                <Menu mode="horizontal" activeKey={'home'} style={{marginBottom: "20px"}} items={menuItems}/>
+                <Menu mode="horizontal" activeKey={activeKey} style={{marginBottom: "20px"}} items={menuItems}
+                      onClick={() => this.setState({})}/>
             </div>
         );
     }
