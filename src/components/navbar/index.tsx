@@ -8,7 +8,7 @@ export default function Navbar() {
     const menuItems = [
         {
             key: 'home',
-            label: (<NavLink to={'/'}>{'home'}</NavLink>),
+            label: (<NavLink to={'/'}>{'Home'}</NavLink>),
         },
         {
             key: 'problems',
